@@ -26,8 +26,8 @@ int main(void)
 
   a = 100;
   b = 100;
-  N_x = 100000;
-  N_y = 100000;
+  N_x = 10000;
+  N_y = 10000;
 
   double h_x;
   double h_y;
