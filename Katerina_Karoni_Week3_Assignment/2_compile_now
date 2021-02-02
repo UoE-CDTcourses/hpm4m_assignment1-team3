@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+## Load the required modules
+module load mpt
+module load intel-compilers-19
+
+## compile
+
+
+## compile with MPI:
+mpicxx mpi_double_integral.cpp  -o mpi_double_integral.exe
+
+## remove object files if there is any!:
+# rm *.mod
+# rm *.o
+

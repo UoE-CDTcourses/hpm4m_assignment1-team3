@@ -1,0 +1,18 @@
+
+#!/bin/bash
+
+
+## Load the required modules
+module load mpt
+module load intel-compilers-19
+
+## compile
+
+
+## compile with MPI:
+mpicxx exercise2.cpp  -o Ex2exe
+mpicxx exercise3.cpp  -o Ex3exe
+## remove object files if there is any!:
+# rm *.mod
+# rm *.o
+
